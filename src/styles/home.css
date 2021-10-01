@@ -1,0 +1,196 @@
+body{
+    background: #080708;
+    width: 100%;
+    height: 80vh;
+
+}
+
+
+nav{
+    float: right;
+    color: white;
+    margin-right: 40px;
+    margin-top: 10px;
+    position: fixed;
+    background-color: #0807085e;
+    backdrop-filter: blur(5px);
+    float: right;
+    width: 100%;
+    z-index: 2;
+    
+}
+nav>ul{
+    display: flex;
+    float: right;
+}
+nav>ul>li{
+    text-decoration: none;
+    margin-right: 20px;
+    list-style: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+nav>ul>li:hover{
+    color: black;
+    font-weight: 600;
+    background: #FF0000;
+    border: 2px solid #FF0000;
+    padding: 5px 10px;
+}
+.lnd-label{
+    color: white;
+    /* padding-top: 50px; */
+    /* background-color: blue; */
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+.label-ctn{
+    /* background: red; */
+    width: 90%;
+    height: 60%;
+    margin-top: -20px;
+    margin: auto;
+    text-align: center;
+    /* padding-top: -10px; */
+}
+.label-ctn>h1{
+    font-size: 7rem;
+    line-height: 1;
+}
+.label-ctn>h1>span{
+    color: #FF0000;
+}
+.skills{
+    display: flex;
+    /* margin-top: -100px; */
+    width: 180px;
+    /* background: purple; */
+    margin: auto;
+    margin-top: -7%;
+}
+.skills>h4{
+    margin-right: 20px;
+    transition: transform .4s ease-in-out;
+    
+}
+.skills>h4:hover{
+    transform: scale(1.1)
+}
+.skills>h4:nth-child(1){
+    color: #FF0000;
+}
+.skills>h4:nth-child(5){
+    color: #FF0000;
+}
+h3{
+    color: white;
+}
+.name{
+    /* background: blue; */
+    width: 100%;
+    height: 38vh;
+    padding-top: 20px;
+    margin-top: -15px;
+}
+.name_ctn{
+    /* background: red; */
+    width: 85%;
+    height: 70%;
+    margin: auto;
+}
+.name_ctn>h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.name_ctn>h2>span{
+    color: #FF0000;
+
+}
+.name_ctn>button{
+    width: 120px;
+    height: 40px;
+    background: transparent;
+    color: #c71414;
+    border: 2px solid #FF0000;
+    margin-top: -30px;
+    transition:0.8s;
+    outline: none;
+    cursor: pointer;
+}
+.name_ctn>button:hover{
+    background: #FF0000;
+    color: #080708;
+    font-weight: bold;
+}
+#circle{
+    width: 30px;
+    position: relative;
+    top: 180px;
+    left: 330px;
+    animation: craft 1s infinite linear;
+    transform-origin: center;
+    transform-box:fill-box ;
+    color: #FF0000;
+}
+#plus{
+    width: 30px;
+    position: absolute;
+    top: 380px;
+    right: 330px;
+    color: #FF0000;
+    animation: plus 1s infinite linear;
+    transform-origin: center;
+    transform-box:fill-box ;
+}
+@keyframes plus{
+    from{
+        transform: rotateZ(0deg)
+    }
+    to{
+        transform: rotateZ(360deg)
+    }
+}
+@keyframes craft{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@media screen and (max-width: 1023){
+    /* nav{
+        float: initial;
+        background-color: blue;
+        margin: auto;
+        width: 60%;
+        text-align: center;
+        margin-right: initial;
+    } */
+    /* .label-ctn>h1{
+        font-size: 55px;
+    } */
+    .label-label{
+        background: red;
+    }
+    /* nav{
+        padding-left: 80px;
+    } */
+    /* nav>ul{
+        justify-content: center;
+        align-content: center;
+    } */
+    /* .skills>h4{
+        margin-left: -10px;
+    }
+    #plus{
+        top: 240px;
+    } */
+}
+@media screen and (max-width: 710px){
+    .label-ctn>h1{
+        font-size: 5rem;
+    }
+}

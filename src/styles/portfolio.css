@@ -1,0 +1,169 @@
+.port{
+    width: 100%;
+    height: auto;
+    /* background: blue; */
+    margin-top: 50px;
+    text-align: center;
+}
+.port>h1{
+    font-size: 55px;
+    color:#FF0000;
+}
+.port-container{
+    width: 65%;
+    height: inherit;
+    /* padding-left: 20px; */
+    /* background: red; */
+    margin: auto;
+    text-align: initial;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.port-cards{
+    width: 400px;
+    height: 450px;
+    /* background: white; */
+    margin-right: 30px;
+    margin-bottom: 90px;
+    /* box-shadow: 3px 3px 10px rgb(159, 255, 202,0.5); */
+    border: 2px solid #FF0000;
+    border-radius: 2px;
+    transition: transform .5s ease-in-out ;
+}
+/* .port-cards:nth-child(2){
+    border: 2px solid #9FFFCB;
+}
+.port-cards:nth-child(2)>.bot>
+.port-cards:nth-child(4){
+    border: 2px solid #9FFFCB;
+} */
+.port-cards:hover{
+    transform: scale(1.02);
+}
+.top{
+    width: 100%;
+    height: 70%;
+    background: rgba(34, 32, 32, 0.425);
+}
+.bot{
+    width: 100%;
+    height: 30%;
+    color:#FF0000;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+/* .bot:nth-child(2){
+    color:#9FFFCB;
+} */
+.bot>button{
+    width: 120px;
+    height: 40px;
+    border: 2px solid #FF0000;
+    background: transparent;
+    color: White;
+    cursor: pointer;
+    transition: .4s ease-in;
+    margin-top: -10px;
+}
+.bot>button:hover{
+    background: #FF0000;
+    color: black;
+    font-weight: bolder;
+}
+/* .button2{
+    border: 2px solid #9FFFCB;
+}
+.button3{
+    border: 2px solid #9FFFCB;
+}
+.button2:hover{
+    background: #9FFFCB;
+    color: black;
+    font-weight: bolder;
+}
+.button3:hover{
+    background: #9FFFCB;
+    color: black;
+    font-weight: bolder;
+} */
+
+/* @media screen and (max-width: 480px){
+    .port-container{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 1.8rem;
+        width: 95%;
+        
+    }
+    .port-cards{
+        width: 350px;
+        margin-right: initial;
+    }
+} */
+/* @media screen and (width:411px){
+    .port-container{
+        width: 5%;
+    }
+} */
+/* @media screen and ( width:414px){
+    .port-container{
+        width: 90%;
+    }
+    .port-cards{
+        margin-left: 11px;
+    }
+}
+@media screen and (height:731px){
+    .port-container{
+        width: 75%;
+    }
+}
+
+@media screen and (height:854px){
+    .port-container{
+        width: 75%;
+    }
+} */
+
+@media screen and (max-width:1208px){
+    .port-container{
+        width: 80%;
+        /* background: purple; */
+        padding-left: 20px;
+    }
+}
+@media screen and (min-width:1008px) and (max-width: 1023px){
+        .port-container{
+            width: 90%;
+            /* background: yellow; */
+            padding-left: 20px;
+        }
+}
+@media screen and (min-width: 954px) and (max-width: 1007px){
+    .port-container{
+        width: 90%;
+        /* background: brown; */
+        padding-left: 20px;
+    }
+}
+@media screen and (min-width: 608px) and (max-width: 953px){
+    .port-container{
+        width: 90%;
+        /* background: brown; */
+        padding-left: 20px;
+    }
+    .port-cards{
+        width: 90%;
+        margin-right: 30px;
+    }
+}
+@media screen and (max-width: 608px){
+    .port-container{
+        width: 70%;
+        /* background: brown; */
+        padding-left: 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .port-cards{
+        width: 90%;
+    }
+}

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+.cnt{
+    /* background: purple; */
+    width: 100%;
+    padding-top:50px;
+}
+.cnt_container{
+    /* background: red; */
+    width: 70%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+.rightt{
+    width: 50%;
+    /* margin-left:50px; */
+    /* background: white; */
+    position: relative;
+    /* filter: invert(81%) sepia(12%) saturate(1619%) hue-rotate(71deg) brightness(97%) contrast(93%);
+    animation: move1 5s infinite linear; */
+    /* position: absolute; */
+}
+.rightt>img{
+    width: 80%;
+    filter: invert(81%) sepia(12%) saturate(1619%) hue-rotate(71deg) brightness(97%) contrast(93%);
+    animation: move1 .7s infinite linear;
+    position: absolute;
+}
+.rightt2{
+    width: 50%;
+    /* background: white; */
+    position: relative;
+}
+.rightt2>img{
+    width: 80%;
+    filter: invert(81%) sepia(12%) saturate(1619%) hue-rotate(71deg) brightness(97%) contrast(93%);
+    animation: move2 .7s infinite linear;
+    position: absolute;
+    
+}
+.cnt_text>h1{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+.cnt_text>p{
+    width: 70%;
+    margin: auto;
+    margin-top: -30px;
+}
+.cnt_text{
+    text-align: center;
+}
+.socials img{
+    filter: invert(81%) sepia(12%) saturate(1619%) hue-rotate(71deg) brightness(97%) contrast(93%);
+    width: 20px;
+}
+.socials{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.hello{
+    text-decoration: none;
+    color: white;
+    /* width: 100px; */
+    padding: 15px 35px;
+    /* background: blue; */
+    border: 3px solid #df1313;
+    /* margin-top: 30px; */
+    border-radius: 3px;
+    font-weight: bolder;
+    transition: .2s ease-in-out;
+}
+.hello:hover{
+    background:#df1313;
+    color: black;
+    
+
+}
+.work{
+    color: #df1313 ;
+}
+.footer{
+    /* background: white; */
+    margin-top: 40px;
+    width: 100%;
+    height: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+@media screen and (max-width: 480px){
+    .cnt_text>p{
+        width: 90%;
+    }
+}
+@keyframes move1{
+    0%{
+         left:0;
+    }
+    50%{
+        left:1%;
+    }
+    100%{
+        left: 0;
+    }
+}
+@keyframes move2{
+    0%{
+         right:0;
+    }
+    50%{
+        right:1%;
+    }
+    100%{
+        right: 0;
+    }
+}
+@media screen and (max-width: 480px){
+ .rightt>img{
+     visibility: hidden;
+ }
+ .rightt2>img{
+    visibility: hidden;
+}
+.cnt_container{
+    width: 90%;
+}
+.cnt_text>h1{
+    font-size: 50px;
+}
+}

@@ -1,0 +1,75 @@
+.cnt2{
+    /* background: red; */
+    width: 100%;
+    padding-top:50px;
+    /* padding-left: 10px; */
+    /* text-align: center; */
+}
+.cnt-top-container{
+    /* background: blue; */
+    width: 30%;
+    margin-left: 50px;
+    margin: auto;
+}
+.cnt-top-container h1{
+    font-size: 40px;
+    margin-bottom: -5px;
+}
+.cnt-bottom-container{
+    display: flex;
+    width: 40%;
+    /* justify-content: space-between; */
+    margin-left: 50px;
+    margin: auto;
+    /* margin:auto; */
+    /* background: yellow; */
+}
+.mailbox{
+    background: #FF0000;
+    width: 85%;
+    height: 300px;
+}
+.boxm{
+    width: 200px;
+    height: 60px;
+    margin-top: 7rem ;
+    margin-left: 7rem;
+    /* margin-top: 120px;
+    margin-left: 150px; */
+    border: 2px solid black;
+    background: transparent;
+    font-weight: 900;
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+.boxm:hover{
+    background: black;
+    color:#FF0000;
+}
+.gets{
+    width: 15%;
+    padding-top: 60px;
+    /* background: red; */
+}
+
+.gets>a>li{
+    list-style: none;
+
+}
+.gets>li{
+    list-style: none;
+
+}
+.getss{
+    width: 30px;
+    filter: invert(81%) sepia(12%) saturate(1619%) hue-rotate(71deg) brightness(97%) contrast(93%);
+
+}
+.touch{
+    color: #FF0000;
+}
+.address li{
+    list-style: none;
+    text-align: center;
+    margin-top: 30px;
+}
